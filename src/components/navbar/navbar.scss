@@ -1,0 +1,44 @@
+.navbar {
+  background-color: var(--color-text);
+  height: 60px;
+  }
+  
+  .navbar-brand {
+    color: #ffffff; // White text color for the brand
+  }
+  
+
+  .navbar-menu {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+     
+  .nav-link {
+    color: #ffffff;
+    margin: 0 1.5rem;
+    &:hover {
+      color: #ffffff; // White text color on hover
+    }
+  }
+  .navbar-right {
+    .btn-outline-danger {
+      background-color: var(--color-button);
+      color: white;
+      border-color: white;
+      
+      &:hover {
+        background-color: black;
+        color: var(--color-button);
+        border-color: var(--color-button);
+      }
+  
+      &:active {
+        background-color: var(--color-button);
+        color: white;
+        border-color: white;
+      }
+    }
+    
+  }
+  
